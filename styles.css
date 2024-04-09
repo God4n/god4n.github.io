@@ -1,0 +1,79 @@
+* {
+  background: #000;
+  font-family: courier, courier new, serif;
+  color: #00FF19;
+}
+
+.cmd-line {
+  margin-top: 3rem;
+}
+
+.cmd-line:first-child {
+  margin-top: 0;
+}
+
+table {
+  padding-left: 1rem;
+}
+
+td {
+  padding-right: 20px;
+}
+
+td:first-child {
+  padding-right: 10px;
+}
+
+.suspect-info {
+  margin-left: 5em;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  /* display: grid; */
+  /* grid-template-columns: 225px 500px; */
+}
+
+.suspect-info img {
+  width: 200px;
+  height: 270px;
+  object-fit: cover;
+}
+
+.suspect-info div {
+  position: relative;
+	border: solid 2px transparent;
+	max-width: 325px;
+  
+  padding: 0 30px;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+
+  &::before {
+		position: absolute;
+		inset: 2px;
+		border: inherit;
+		background: #00FF19;
+    --c: 3em;
+		--corner: 
+			conic-gradient(from -90deg at var(--c) var(--c), red 50%, #0000 0) 
+				0 0/ calc(100% - var(--c))  calc(100% - var(--c)) border-box;
+		--inner: conic-gradient(red 0 0) padding-box;
+						mask: var(--corner) subtract, var(--inner);
+		content: ''
+	}
+}
+
+.suspect-info div p {
+  margin: 0;
+}
+
+.paragraph {
+  max-width: 100ch;
+}
+
+.loadbar {
+  letter-spacing: 0.6px;
+}
