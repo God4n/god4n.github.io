@@ -36,18 +36,25 @@ td:first-child {
   gap: 25px;
 }
 
-.suspect-info img {
-  width: 200px;
+.suspect-info .image {
+  width: 220px;
   height: 270px;
   object-fit: cover;
+  background-color: #00ff1a74;
+  background-repeat: no-repeat; 
+  background-image: url("https://media.licdn.com/dms/image/C4D03AQEuJiqCzmqiWg/profile-displayphoto-shrink_200_200/0/1642664857331?e=1718236800&v=beta&t=f8V0bWt45F6GzBD_ZbkNVG0aQmC0fAgaMlKcHibujOg");
+  background-blend-mode: screen; 
+  background-size: cover;
+  background-position: 30%;
+  border: solid 0px;  
 }
 
-.suspect-info div {
+.suspect-info .content {
   position: relative;
 	border: solid 2px transparent;
 	/* max-width: 325px; */
   
-  padding: 0 30px;
+  padding: 0 35px;
   display: flex;
   gap: 1rem;
   justify-content: center;
@@ -56,7 +63,7 @@ td:first-child {
 
   &::before {
 		position: absolute;
-		inset: 2px;
+		inset: -2px;
 		border: inherit;
 		background: #00FF19;
     --c: 3em;
