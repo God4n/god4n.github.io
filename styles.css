@@ -199,3 +199,28 @@ td:first-child {
   pointer-events: none;
   animation: flicker 0.15s infinite;
 }
+
+
+/* media query */
+
+@media (min-width: 400px) {
+  .suspect-info {
+    margin-left: 0;
+  }
+
+  .suspect-info .content {
+    font-size: 18px;
+  }
+  
+  table {
+    padding-left: 0.5rem;
+  }
+
+  td {
+    padding-right: 5px;
+  }
+
+  .loadbar {
+    letter-spacing: 1px
+  }
+}
