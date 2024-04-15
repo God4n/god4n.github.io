@@ -203,12 +203,12 @@ td:first-child {
 
 /* media query */
 
-@media (min-width: 400px) {
+@media (min-width: 500px) {
   .suspect-info {
-    margin-left: 0;
+    margin-left: 1em;
   }
 
-  .suspect-info .content {
+  p {
     font-size: 18px;
   }
   
@@ -218,6 +218,7 @@ td:first-child {
 
   td {
     padding-right: 5px;
+    max-width: 24rem;
   }
 
   .loadbar {
