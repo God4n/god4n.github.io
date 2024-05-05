@@ -7,6 +7,7 @@
 body {
   background: #090909;
   font-family: courier, courier new, serif;
+  height: fit-content;
 }
 
 table {
@@ -107,10 +108,9 @@ td:first-child {
   position: absolute;
   top: 0;
   left: 0;
-  bottom: 0;
   right: 0;
   width: 100%;
-  height: 100%;
+  height: var(--before-height,100%);
   background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06));
   z-index: 2;
   background-size: 100% 3px, 0 100%;
@@ -189,17 +189,15 @@ td:first-child {
   position: absolute;
   top: 0;
   left: 0;
-  bottom: 0;
   right: 0;
   width: 100%;
-  height: 100%;
+  height: var(--before-height,100%);
   background: rgba(18, 16, 16, 0.1);
   opacity: 0;
   z-index: 2;
   pointer-events: none;
   animation: flicker 0.15s infinite;
 }
-
 
 /* media query */
 
