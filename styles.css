@@ -202,10 +202,6 @@ td:first-child {
 /* media query */
 
 @media (min-width: 500px) {
-  .suspect-info {
-    margin-left: 1em;
-  }
-
   p {
     font-size: 18px;
   }
