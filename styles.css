@@ -42,7 +42,7 @@ td:first-child {
   object-fit: cover;
   background-color: #00ff1a74;
   background-repeat: no-repeat; 
-  background-image: url("https://media.licdn.com/dms/image/C4D03AQEuJiqCzmqiWg/profile-displayphoto-shrink_200_200/0/1642664857331?e=1718236800&v=beta&t=f8V0bWt45F6GzBD_ZbkNVG0aQmC0fAgaMlKcHibujOg");
+  background-image: url("/assets/images/profilepicture.png");
   background-blend-mode: screen; 
   background-size: cover;
   background-position: 30%;
