@@ -39,14 +39,14 @@ td:first-child {
 .suspect-info .image {
   width: 220px;
   height: 270px;
-  object-fit: cover;
   background-color: #00ff1a74;
   background-repeat: no-repeat; 
-  background-image: url("/assets/images/profilepicture.png");
-  background-blend-mode: screen; 
-  background-size: cover;
-  background-position: 30%;
-  border: solid 0px;  
+  background-image: url("assets/images/profilepicture.png");
+  background-blend-mode: screen;
+  background-size: 240px;
+  background-position-x: 70%;
+  background-position-y: 80%;
+  border: solid 0px;
 }
 
 .suspect-info .content {
